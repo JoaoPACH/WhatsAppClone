@@ -1,0 +1,58 @@
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-color: #FFF;
+    width: 400px;
+    height: 400px;
+    margin: 0 20px 0 150px;
+    border: 10px solid #4ADF83;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    width: 900px;
+    height: 400px;
+    margin: 0 10px 0 200px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome h1 {
+    font-size: 60px;
+    border-bottom: 5px solid #4ADF83;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome button {
+    color: #FFF;
+    background-color: #3B5998;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 50px;
+    margin: auto auto;
+    border: 3px solid #3B5998;
+    border-radius: 50px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome button:hover {
+    background-color: #4E71BA;
+}

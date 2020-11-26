@@ -1,0 +1,70 @@
+.infoContact {
+    width: 35%;
+    max-width: 415px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #DDD;
+    transition: all ease 0.5s;
+}
+
+.infoContact--head {
+    display: flex;
+    background-color: #CCC;
+    align-items: center;
+    height: 60px;
+}
+
+.infoContact--backbutton {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.infoContact--headtitle {
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    flex: 1;
+    font-weight: bold;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.infoContact--information {
+    height: 50%;
+}
+
+.infoContact--avatar {
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoContact--avatar img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.infoContact--name {
+    height: 20%;
+    font-size: 30px;
+    color: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

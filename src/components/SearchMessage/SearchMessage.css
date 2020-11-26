@@ -1,0 +1,71 @@
+.searchMessage {
+    width: 35%;
+    max-width: 415px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #DDD;
+    transition: all ease 0.5s;
+}
+
+.searchMessage--header {
+    display: flex;
+    background-color: #CCC;
+    align-items: center;
+    height: 60px;
+}
+
+.searchMessage--backbutton {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchMessage--headtitle {
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    flex: 1;
+    font-weight: bold;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.searchMessage--area {
+    background-color: #F6F6F6;
+    border-bottom: 1px solid #EEE;
+    padding: 5px 15px;
+}
+
+.searchMessage--input{
+    background-color: #FFF;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.searchMessage--input input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.searchMessage--results {
+    color: #BBB;
+    margin: 50px auto;
+}
